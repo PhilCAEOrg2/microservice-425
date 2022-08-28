@@ -116,6 +116,19 @@ public class ResTest {
   }
 
 
+  /**
+   * 
+   * Test for the NewTestCase_ID406269 method.
+   * 
+   */
+  @Test
+  public void testNewTestCase_ID406269() {
+    MiniClientCoverage c = new MiniClientCoverage(mainPath);
+    c.setConnectorEndpoint(connector.getHttpEndpoint());
+    
+    
+    
+  }
 
 
 
